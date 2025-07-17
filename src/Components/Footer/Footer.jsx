@@ -29,14 +29,15 @@ const Footer = () => {
             <b>{t(`${section}2.support`)}</b>
 
             <ul>
-              <li>{t(`${section}2.address`)}</li>
+              <li>Lagos, Nigeria</li>
+
               <li>
                 <a href={`mailto:${CONTACT_EMAILS.gmail}`}>
                   {CONTACT_EMAILS.gmail}
                 </a>
               </li>
               <li>
-                <a href="tel:+88015-88888-9999">+88015-88888-9999</a>
+                <a href="tel:+2348163753758">+2348163753758</a>
               </li>
             </ul>
           </section>

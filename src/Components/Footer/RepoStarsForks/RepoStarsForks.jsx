@@ -18,28 +18,24 @@ const RepoStarsForks = () => {
 
   return (
     !isError && (
-      <a
-        href={repoUrl}
-        target="_blank"
-        className={s.repoStarsForks}
-        aria-label="Website's repository"
-      >
-        <div className={s.wrapper}>
-          <SvgIcon name="star" />
-          <span className={s.number}>{repoStars}</span>
-        </div>
+<div className={s.repoStarsForks}>
+  <div className={s.wrapper}>
+    <SvgIcon name="star" />
+    <span className={s.number}>{repoStars}</span>
+  </div>
 
-        <div className={s.wrapper}>
-          <SvgIcon name="codeFork" />
-          <span className={s.number}>{repoForks}</span>
-        </div>
+  <div className={s.wrapper}>
+    <SvgIcon name="codeFork" />
+    <span className={s.number}>{repoForks}</span>
+  </div>
 
-        <ToolTip
-          bottom="40px"
-          left={leftToolTipPos}
-          content={t("tooltips.repoStarsForks")}
-        />
-      </a>
+  <ToolTip
+    bottom="40px"
+    left={leftToolTipPos}
+    content={t("tooltips.repoStarsForks")}
+  />
+</div>
+
     )
   );
 };

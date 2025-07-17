@@ -191,7 +191,7 @@
     },
     "section2": {
       "support": "Support",
-      "address": "Iraq, Baghdad"
+      "address": "Lagos, Nigeria"
     },
     "section3": {
       "account": "Account",
@@ -284,8 +284,8 @@
   "aboutPage": {
     "heroSection": {
       "heading": "Our Story",
-      "paragraphOne": "Launched in 2024, E-commercew is Iraq's premier online shopping marketplace, serving customers nationwide. With a strong focus on personalized marketing, advanced data analytics, and comprehensive service solutions, E-commercew supports over 10,500 sellers and 300 brands, reaching 3 million customers across the country.",
-      "paragraphTwo": "E-commercew offers an extensive selection of over 1 million products, constantly expanding to meet the diverse needs of its customers. From electronics to fashion, and home goods to beauty products, E-commercew provides a wide array of categories to choose from.",
+      "paragraphOne": "Launched in 2024, E-commerce is Nigeria's premier online shopping marketplace, serving customers nationwide. With a strong focus on personalized marketing, advanced data analytics, and comprehensive service solutions, E-commerce supports over 10,500 sellers and 300 brands, reaching 3 million customers across the country.",
+      "paragraphTwo": "E-commerce offers an extensive selection of over 1 million products, constantly expanding to meet the diverse needs of its customers. From electronics to fashion, and home goods to beauty products, E-commerce provides a wide array of categories to choose from.",
       "imageAlt": "two young women happy with shopping"
     },
     "cardInfo": {
@@ -296,11 +296,11 @@
     },
     "ourMembersData": {
       "founderChairman": {
-        "name": "Tom Cruise",
+        "name": "Ohakwe Great",
         "jobTitle": "Founder & Chairman"
       },
       "managingDirector": {
-        "name": "Emma Watson",
+        "name": "John Doe",
         "jobTitle": "Managing Director"
       },
       "productDesigner": {
@@ -431,7 +431,7 @@
   "loginSignUpPage": {
     "createAccount": "Create an account",
     "enterDetails": "Enter your details below",
-    "login": "Log in to E-commercew",
+    "login": "Log in to E-commerce",
     "forgotPassword": "Forgot password?",
     "alreadyHaveAcc": "Already have an account?",
     "dontHaveAcc": "don't you have an account? "
@@ -500,7 +500,7 @@
   "toastAlert": {
     "accountInfoUpdated": "Account's information updated.",
     "messageSent": "Thank you for your message!, we will get back to you shortly.",
-    "subscriptionSuccess": "You subscribed to E-commercew offers!",
+    "subscriptionSuccess": "You subscribed to E-commerce offers!",
     "subscriptionFailed": "Failed to subscribe, Please check your internet connection.",
     "loginSuccess": "You logged in successfully, Welcome back!",
     "loginFailed": "Failed to login, Please check your internet connection.",

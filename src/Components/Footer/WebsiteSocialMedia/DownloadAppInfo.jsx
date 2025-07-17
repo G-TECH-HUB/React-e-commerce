@@ -46,18 +46,19 @@ const DownloadAppInfo = () => {
         </div>
       </div>
 
-      <div className={s.socialMedia}>
-        {mySocialMedia.map((item) => {
-          const nameTrans = t(`common.${item.name.toLowerCase()}`);
+<div className={s.socialMedia}>
+  {mySocialMedia.map((item) => {
+    const nameTrans = t(`common.${item.name.toLowerCase()}`);
 
-          return (
-            <a href={item.link} target="_blank" title={nameTrans} key={item.id}>
-              <SvgIcon name={item.icon} />
-              <ToolTip left="50%" top="48px" content={nameTrans} />
-            </a>
-          );
-        })}
+    return (
+      <div title={nameTrans} key={item.id} className={s.disabledIcon}>
+        <SvgIcon name={item.icon} />
+        <ToolTip left="50%" top="48px" content={nameTrans} />
       </div>
+    );
+  })}
+</div>
+
     </>
   );
 };

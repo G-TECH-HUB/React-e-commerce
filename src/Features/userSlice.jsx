@@ -6,17 +6,17 @@ const initialState = initialStateLocal
   ? JSON.parse(initialStateLocal)
   : {
       loginInfo: {
-        username: "Lily Watson",
-        emailOrPhone: "lily.wastons@gmail.com",
+        username: "Ohakwe Great",
+        emailOrPhone: "chibuikegreatohakwe84@gmail.com",
         password: "random-password1234",
-        address: "United State, California",
+        address: "Lagos, Nigeria",
         isSignIn: true,
       },
       signedUpUsers: [
         {
-          username: "Lily Watson",
+          username: "Ohakwe Great",
           emailOrPhone: "lily.wastons@gmail.com",
-          password: "random-password1234",
+          password: "chibuikegreatohakwe84@gmail.com",
         },
       ],
     };
